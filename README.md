@@ -1,2 +1,4 @@
 # Codigos-STAN---Problemas-de-Transferencia-de-Calor
 Trechos de códigos para resolver problemas inversos de transferência de calor via STAN
+
+O presente repositório tem como objetivo apresentar trechos de códigos implementados em R, exemplificando a utilização da ferramenta STAN para formular e resolver o problema inverso de identificação de propriedades térmicas. Foram consideradas duas versões do problema direto de transferência de calor: uma homogênea e uma não homogênea. A versão homogênea foi resolvida por meio do Método de Separação de Variáveis, enquanto a não homogênea foi abordada com o Método de Diferenças Finitas (MDF) em sua formulação explícita. Para a solução dos respectivos problemas inversos de identificação de propriedades térmicas, empregou-se o Método de Monte Carlo Hamiltoniano (HMC), implementado utilizando a ferramenta estatística STAN, permitindo assim a estimação das distribuições de probabilidade a posteriori dos parâmetros de interesse.
